@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>导航</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+</head>
+<style type="text/css">
+    body{
+        padding-top:20px;
+        padding-bottom: 60px;
+        /*background-color:#f5f5f5;*/
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .container > hr{
+        margin:60px 0;
+    }
+
+    /* 导航条设置 */
+    .navbar .navbar-inner {
+        padding: 0;
+    }
+
+    .navbar .nav {
+        margin:0;
+        display: table;
+        width:100%;
+    }
+
+    .navbar .nav li {
+        display:table-cell;
+        width:1%;
+        float:none;
+    }
+
+    .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+    }
+
+    .navbar .nav li:first-child a{
+        border-left: 0;
+        border-radius:3px 0 0 3px;
+    }
+
+    .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    /* 中间横幅广告设置 */
+    .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+    }
+
+    .jumbotron h1{
+        font-size: 100px;
+        line-height: 1;
+    }
+
+    .jumbotron .lead{
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    .jumbotron .btn{
+        font-size: 21px;
+        padding: 14px 24px;
+    }
+    
+</style>
+<body>
+
+    <div class="container">
+        <!-- 导航 -->
+        <div class='masthead'>
+            <h3 class='muted'>网上超市</h3>
+            <div class='navbar'>
+                <div class='navbar-inner'>
+                    <div class='container'>
+                        <ul class='nav'>
+                            <li class='active'><a href="#">首页</a></li>
+                            <li><a href="#">充值</a></li>
+                            <li><a href="#">团购</a></li>
+                            <li><a href="#">秒杀</a></li>
+                            <li><a href="#">旅游</a></li>
+                            <li><a href="#">手机</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 大图广告 -->
+        <div class="jumbotron">
+            <h1>super market</h1>
+            <p class='head'>Android支持三种屏幕像素密度：低像素密度，中像素密度，高像素密度。一个低像素密度的屏幕每英寸上的像素点更少，而一个高像素密度的屏幕每英寸上的像素点更多。Android Browser和WebView默认屏幕为中像素密度 </p>
+            <a href="#" class='btn btn-large btn-success'>获取最新</a>
+        </div>
+
+        <hr>
+        <!-- 热销商品展示 -->
+        <div class='row-fluid'>
+            
+        </div>
+
+    </div>
+
+    <!-- 加载js文件 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+-->
+</body>
+</html>
